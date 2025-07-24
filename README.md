@@ -45,120 +45,63 @@
 
 ### ⚙️ Skills Overview
 
-<style>
-  .skills-section {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    font-family: sans-serif;
-    color: white;
-  }
+#### ML & AI Development  
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)  
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?logo=huggingface&logoColor=black)  
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)  
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)  
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
-  .skill-category {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
+#### Data Science & Analytics  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)  
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)  
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)  
+![Seaborn](https://img.shields.io/badge/Seaborn-2E91E5?logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logoColor=white)  
+![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)  
+![Tableau](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white)  
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?logo=powerbi&logoColor=black)
 
-  .skill-category-title {
-    min-width: 200px;
-    font-weight: bold;
-  }
+#### Database Management  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 
-  .badge {
-    padding: 6px 12px;
-    border-radius: 6px;
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-  }
+#### AI Research & Tools  
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?logoColor=white)  
+![Mendeley](https://img.shields.io/badge/Mendeley-9D1620?logoColor=white)  
+![Overleaf](https://img.shields.io/badge/Overleaf-47A141?logoColor=white)  
+![Word](https://img.shields.io/badge/MS%20Word-2B579A?logo=microsoftword&logoColor=white)  
+![PowerPoint](https://img.shields.io/badge/PowerPoint-B7472A?logo=microsoftpowerpoint&logoColor=white)  
+![Canva](https://img.shields.io/badge/Canva-00C4CC?logo=canva&logoColor=white)
 
-  .TensorFlow { background-color: #ff6f00; }
-  .PyTorch { background-color: #ee4c2c; }
-  .HuggingFace { background-color: gold; color: black; }
-  .MLflow { background-color: #0276b6; }
-  .Docker { background-color: #2496ed; }
-  .Flask { background-color: black; }
-  .Streamlit { background-color: crimson; }
-
-  .Python { background-color: #306998; }
-  .R { background-color: #276dc3; }
-  .Pandas { background-color: #150458; }
-  .NumPy { background-color: #013243; }
-  .Seaborn { background-color: #4c72b0; }
-  .Matplotlib { background-color: #11557c; }
-  .ScikitLearn { background-color: #f7931e; }
-  .Tableau { background-color: #e97627; }
-  .PowerBI { background-color: #f2c811; color: black; }
-
-  .MySQL { background-color: #00758f; }
-
-  .LaTeX { background-color: #008080; }
-  .Mendeley { background-color: #b61a28; }
-  .Overleaf { background-color: #47a141; }
-  .MSWord { background-color: #2b579a; }
-  .PowerPoint { background-color: #d24726; }
-  .Canva { background-color: #00c4cc; color: black; }
-</style>
-
-<div class="skills-section">
-  <div class="skill-category">
-    <span class="skill-category-title">ML & AI Development:</span>
-    <span class="badge TensorFlow">TensorFlow</span>
-    <span class="badge PyTorch">PyTorch</span>
-    <span class="badge HuggingFace">HuggingFace</span>
-    <span class="badge MLflow">MLflow</span>
-    <span class="badge Docker">Docker</span>
-    <span class="badge Flask">Flask</span>
-    <span class="badge Streamlit">Streamlit</span>
-  </div>
-
-  <div class="skill-category">
-    <span class="skill-category-title">Data Science & Analytics:</span>
-    <span class="badge Python">Python</span>
-    <span class="badge R">R</span>
-    <span class="badge Pandas">Pandas</span>
-    <span class="badge NumPy">NumPy</span>
-    <span class="badge Seaborn">Seaborn</span>
-    <span class="badge Matplotlib">Matplotlib</span>
-    <span class="badge ScikitLearn">Scikit-Learn</span>
-    <span class="badge Tableau">Tableau</span>
-    <span class="badge PowerBI">PowerBI</span>
-  </div>
-
-  <div class="skill-category">
-    <span class="skill-category-title">Database Management:</span>
-    <span class="badge MySQL">MySQL</span>
-  </div>
-
-  <div class="skill-category">
-    <span class="skill-category-title">AI Research & Tools:</span>
-    <span class="badge LaTeX">LaTeX</span>
-    <span class="badge Mendeley">Mendeley</span>
-    <span class="badge Overleaf">Overleaf</span>
-    <span class="badge MSWord">MS Word</span>
-    <span class="badge PowerPoint">PowerPoint</span>
-    <span class="badge Canva">Canva</span>
-  </div>
-</div>
+#### Frontend Development  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)  
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)  
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)  
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)  
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)  
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 
 ---
 
 ### 💼 Projects Showcase
 
-- 🧠 **PhishGuard**: Phishing Detection System | Flask, NLP, Deep Learning  
-  → Real-time detection of phishing emails and URLs using CNN + BiLSTM + TF-IDF, with Flask-based secure login.
+- 🧠 **PhishGuard**  
+  Phishing Attack Detection System | Flask, NLP, Deep Learning, CNN + BiLSTM
 
-- 📚 **KD Academy**: E-learning Web App | PHP, MySQL, JS  
-  → Full-featured platform with course management, student enrollment, and interactive learning tools.
+- 📚 **KD Academy**  
+  Web Application for Online Learning | PHP, MySQL, JavaScript, HTML/CSS
 
-- 💳 **African Credit Scoring Challenge**: ML, Credit Risk Prediction  
-  → Modeled financial data to predict customer default risk using ensemble models.
+- 💳 **African Credit Scoring Challenge**  
+  Data Science, Machine Learning, Credit Scoring
 
-- 💬 **Flipkart Sentiment Analysis**: NLP & Data Viz  
-  → Review-based sentiment analysis with interactive visual insights and topic modeling.
+- 💬 **Flipkart Sentiment Analysis**  
+  NLP, Sentiment Analysis, Python, Data Visualization
 
 ---
 
@@ -195,4 +138,3 @@ Data Structures, ML & DL, NLP, AI, Data Mining, R Programming, Information Visua
   <b>Thanks for visiting my profile! 💙</b><br>
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50"/>
 </p>
-
